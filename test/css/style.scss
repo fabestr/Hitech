@@ -1,0 +1,32 @@
+$color-base:#333;
+$bgcolor-body:#eee;
+$font-base:sans-serif;
+$color-title:#c33;
+
+[class*="column-"] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@for $i from 2 to 12 {
+    .column-#{$i} >* {
+        width:100% / $i;
+    }
+}
+
+
+body {
+    color:$color-base;
+    background-color: $bgcolor-body;
+    font-family: $font-base;
+
+    main {
+        padding:2em;
+
+        h1 {
+            font-size: 2em;
+            color:$color-title;
+            background-color: lighten($color-title, 25%);
+        }
+    }
+}

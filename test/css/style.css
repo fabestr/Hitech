@@ -1,0 +1,64 @@
+[class*="column-"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.column-2 > * {
+  width: 50%;
+}
+
+.column-3 > * {
+  width: 33.33333%;
+}
+
+.column-4 > * {
+  width: 25%;
+}
+
+.column-5 > * {
+  width: 20%;
+}
+
+.column-6 > * {
+  width: 16.66667%;
+}
+
+.column-7 > * {
+  width: 14.28571%;
+}
+
+.column-8 > * {
+  width: 12.5%;
+}
+
+.column-9 > * {
+  width: 11.11111%;
+}
+
+.column-10 > * {
+  width: 10%;
+}
+
+.column-11 > * {
+  width: 9.09091%;
+}
+
+body {
+  color: #333;
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+body main {
+  padding: 2em;
+}
+
+body main h1 {
+  font-size: 2em;
+  color: #c33;
+  background-color: #e69999;
+}
+/*# sourceMappingURL=style.css.map */
