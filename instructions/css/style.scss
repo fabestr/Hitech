@@ -22,6 +22,8 @@
     flex-wrap: wrap;
 }
 
+
+
 /********************Defaut*****************************/
 html {
     font-size: 62.5%;
@@ -34,6 +36,8 @@ body {
     color:#444;
 
 }
+
+
 
 h1,
 h2,
@@ -98,6 +102,22 @@ table {
     }
 }
 
+.first-access {
+    a {
+        padding:1rem;
+        background-color: #000;
+        color:white;
+        position: absolute;
+        top:-10rem;
+    }
+
+    a:focus {
+        top:0;
+    }
+
+    
+}
+
 /************************options******************************/
 .breadcrumb {
     margin-top:0;
@@ -133,6 +153,10 @@ table {
 .flex--item-center {
     align-items: center;
 
+}
+
+.vert-align-middle {
+    vertical-align: middle;
 }
 
 .float-left {
@@ -324,5 +348,78 @@ table {
                 margin:2rem 0;
             }
         }
+    }
+}
+
+/************************************************************************
+                FOOTER
+********************************************************************/
+
+
+.footer {
+    background-image: url('../images/footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1,
+    span {
+        color:lighten(#444,25%);
+    }
+    a {
+        color:lightgrey;
+    }
+    ul {
+        list-style: none;
+        margin-top: 0;
+    }
+
+    
+    .nav-footer {
+    
+        background-color: rgba(white, 0.2);
+
+        a {
+            display: block;
+            padding:1rem;
+        }
+       
+    }
+    .footer__div {
+        width: 50%;
+    }
+
+    .sprite {
+        display:inline-block;
+        width:20%;
+        margin: 1rem;
+        height:7rem;
+        background-image: url('../images/payment.png');
+        background-size: cover;
+        border-radius: 0.5rem;
+        
+        
+    }
+    .sprite-1 {
+        background-position: 75%;
+    }
+
+    .sprite-2 {
+        background-position: 0;
+        
+    }
+
+    .sprite-3 {
+        background-position:25%;
+        
+    }
+
+    .sprite-4 {
+        background-position: 99.5%;
+        
+    }
+    
+    span {
+        margin: 2rem 2rem;
+        font-size: 3rem;
     }
 }

@@ -129,6 +129,18 @@ table tr td {
   width: 50%;
 }
 
+.first-access a {
+  padding: 1rem;
+  background-color: #000;
+  color: white;
+  position: absolute;
+  top: -10rem;
+}
+
+.first-access a:focus {
+  top: 0;
+}
+
 /************************options******************************/
 .breadcrumb {
   margin-top: 0;
@@ -169,6 +181,10 @@ table tr td {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.vert-align-middle {
+  vertical-align: middle;
 }
 
 .float-left {
@@ -338,5 +354,72 @@ table tr td {
 
 .main article .main__section3 .feature {
   margin: 2rem 0;
+}
+
+/************************************************************************
+                FOOTER
+********************************************************************/
+.footer {
+  background-image: url("../images/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer h1,
+.footer span {
+  color: #848484;
+}
+
+.footer a {
+  color: lightgrey;
+}
+
+.footer ul {
+  list-style: none;
+  margin-top: 0;
+}
+
+.footer .nav-footer {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer .nav-footer a {
+  display: block;
+  padding: 1rem;
+}
+
+.footer .footer__div {
+  width: 50%;
+}
+
+.footer .sprite {
+  display: inline-block;
+  width: 20%;
+  margin: 1rem;
+  height: 7rem;
+  background-image: url("../images/payment.png");
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+.footer .sprite-1 {
+  background-position: 75%;
+}
+
+.footer .sprite-2 {
+  background-position: 0;
+}
+
+.footer .sprite-3 {
+  background-position: 25%;
+}
+
+.footer .sprite-4 {
+  background-position: 99.5%;
+}
+
+.footer span {
+  margin: 2rem 2rem;
+  font-size: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
